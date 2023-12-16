@@ -1,5 +1,7 @@
 
-pragma solidity >=0.4.21 <0.7.0;
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.18;
 pragma experimental ABIEncoderV2;
  
 contract DoctorAddRecord{
