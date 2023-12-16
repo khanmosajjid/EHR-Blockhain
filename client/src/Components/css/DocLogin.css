@@ -1,0 +1,82 @@
+:root {
+  /* Define color scheme */
+  --dark-bg: #1f1f38;
+  --light-bg: #2c2c6c;
+  --gradient-start: #ff9068;
+  --gradient-end: #ff4b1f;
+  --input-bg: #ffffff;
+  --input-border-color: #e7e7e7;
+  --button-bg: #ff758c;
+  --button-bg-hover: #ff7eb3;
+  --placeholder-color: #a8a8a8;
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-card {
+   background: #23263a; /* Dark blue background */
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  color: #fff;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.form-card h4 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  background-color: var(--input-bg);
+  border: 1px solid var(--input-border-color);
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+  color: var(--placeholder-color);
+}
+.dbutton{
+    margin: 0.5rem;
+}
+
+.btn-custom {
+  background-image: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-image: linear-gradient(to right, var(--button-bg), var(--button-bg-hover));
+}
+
+/* Additional styles for icons and other elements can be added here */

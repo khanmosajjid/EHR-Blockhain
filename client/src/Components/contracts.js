@@ -1,0 +1,2 @@
+export const DoctorAddRecord = "0xE1fa252505101b4B3B04d61d7A91557ca705d6FA";
+export const OPT = "0x1de959d0AE4EB784FBB03baB31Df0D1A3d1058dA";
